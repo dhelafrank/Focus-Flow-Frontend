@@ -22,7 +22,7 @@
     transition: 3.5s normal;
     width: 0%;
     height: 90%;
-    box-shadow: 0 10px 40px -10px #fff;
+    box-shadow: 0 10px 40px #fff;
 }
 .progress-value p{
     position: absolute;

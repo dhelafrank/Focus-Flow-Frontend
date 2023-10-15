@@ -12,7 +12,7 @@ export function loadProgressBars() {
     progressElements.forEach(bars => {
         setTimeout(() => {
             bars.style = `width:${bars.getAttribute("progress-percentage")}%`
-        }, 2)
+        }, 100)
     })
 }
 
