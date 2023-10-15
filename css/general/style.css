@@ -1,0 +1,42 @@
+/* This style sheet contain styles for custom element layouts throughout the application */
+
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300&family=Poppins&display=swap');
+:root{
+    --page-padding:0 5vw;
+}
+
+body {
+    border: 0;
+    margin: 0;
+    color: var(--text-color);
+    font-family: var(--main-font);
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 5vw;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    box-sizing: border-box;
+    background: var(--background);
+}
+nav img{
+    width:1.2rem ;
+}
+
+.section-heading-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.section-heading-container a{
+    font-size: var(--font-size-sml);
+    text-decoration: none;
+    color: var(--faint-text);
+}

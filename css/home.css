@@ -1,0 +1,104 @@
+@import url("/css/general/style.css") all;
+@import url("/css/general/theme.css") all;
+@import url("/css/components/card.css") all;
+@import url("/css/components/progess_bar.css") all;
+body {
+    user-select: none;
+}
+
+/* Title Container For the Home Screen Alone*/
+.title-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--transparency-one);
+    padding: var(--page-padding);
+    font-size: var(--font-size-bg);
+    font-weight: 600;
+}
+
+.title-container img {
+    height: 1.5rem;
+}
+
+
+/* Dashboard Cards */
+.overview-dash {
+    margin-top: 2vh;
+}
+
+.overview-dash .section-one {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--page-padding);
+}
+
+.section-one div {
+    height: 20vh;
+    width: 43vw;
+}
+
+.card-icons {
+    position: absolute;
+    right: 15%;
+    bottom: 15%;
+    border: 1px solid var(--text-color);
+    border-radius: 5px;
+    padding: .3rem;
+}
+
+.section-icon-container {
+    position: relative;
+}
+
+.section-two {
+    padding: var(--page-padding);
+}
+
+.section-two .total-task-progress {
+    background: var(--transparency-two);
+    border-radius: 15px;
+    margin-top: 1rem;
+    padding: 0 1rem;
+    box-sizing: border-box;
+}
+
+.section-two .total-task-progress>div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/* Upcoming Section */
+.upcoming {
+    padding: var(--page-padding);
+}
+
+.upcoming-tasks-container {
+    border-radius: 10px;
+    background: var(--transparency-two);
+    overflow: hidden;
+}
+
+.upcoming-task-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
+    border-bottom: 1px solid var(--text-color);
+}
+
+.upcoming-tasks-container :last-child {
+    border-bottom: none;
+}
+
+.upcoming-task-card div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.upcoming-task-card div img {
+    margin-right: 1rem;
+}

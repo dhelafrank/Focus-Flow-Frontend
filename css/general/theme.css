@@ -1,0 +1,37 @@
+/* This stylesheet defines style for  */
+:root {
+    /* Color Variables */
+    --primary-color: #0077FF;
+    --secondary-color: #FF8800;
+    --text-color: #111;
+    --background:#eee;
+    --faint-text:#00000085;
+
+    /* Font Variables */
+    --main-font: 'Poppins', 'Sans-serif';
+    --heading-font: 'Georgia, 'Times New Roman', serif';
+
+    /* Font Size Variables */
+
+    /* --font-size-bg: 24px;
+    --font-size-small: 14px;
+    --font-size-med: 16px; */
+
+    --font-size-bg: 24px;
+    --font-size-small: 14px;
+    --font-size-med: 18px;
+
+
+    /* Transparency Variable */
+    --transparency-one:#11111121;
+    --transparency-two:#0000003a;
+    --transparency-four:#0000007e;
+}
+
+
+.dark-mode {
+    /* Color Variables for Dark Mode */
+    --text-color: #eee;
+    --primary-color: #00BBFF;
+    --secondary-color: #FF5500;
+}

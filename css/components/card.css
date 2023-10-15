@@ -1,0 +1,6 @@
+.transparent-card-one{
+    background-color: var(--transparency-two);
+    border-radius: 15px;
+    padding: .5rem 1rem;
+    box-sizing: border-box;
+}

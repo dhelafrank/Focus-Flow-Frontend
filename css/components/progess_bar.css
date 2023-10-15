@@ -1,0 +1,31 @@
+.progress-container{
+    min-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.progress {
+    width: 85%;
+    height: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background: var(--transparency-four);
+    border-radius: 5px;
+    margin-bottom: .5rem;
+    margin-top:.5rem;
+}
+
+.progress-value {
+    border-radius: inherit;
+    background-color: #fff;
+    transition: 3.5s normal;
+    width: 0%;
+    height: 90%;
+    box-shadow: 0 10px 40px -10px #fff;
+}
+.progress-value p{
+    position: absolute;
+    right: -50%;
+    top:-20%;
+}
